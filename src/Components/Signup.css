@@ -1,0 +1,26 @@
+.signupWrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.signupCard{
+    width: 40%;
+    margin-top: 5%;
+}
+
+.app_name *{
+    text-align: center;
+}
+
+@media only screen and (max-width:920px) {
+    .signupCard{
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width:420px) {
+    .signupCard{
+        width: 100%;
+    }
+}
+
